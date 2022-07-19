@@ -7,10 +7,8 @@ def palindrome(string: str):
     i = 0
     j = len(string)-1
     while i < j:
-        print("i have fun now")
         if string[i] != string[j]:
             return False
-     
         i += 1
         j -= 1
     return True
